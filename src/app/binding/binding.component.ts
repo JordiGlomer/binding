@@ -14,7 +14,7 @@ export class BindingComponent implements OnInit {
  surname!: string;
  address!: string;
 
-   user = new BindingComponent();
+ user = new BindingComponent();
 
 
   constructor() { }
