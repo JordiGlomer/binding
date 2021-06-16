@@ -10,11 +10,19 @@ import { Component, OnInit } from '@angular/core';
 
 
 export class BindingComponent implements OnInit {
- name!: string;
- surname!: string;
- address!: string;
 
- user = new BindingComponent();
+  name:string;
+  surname!: string;
+  address!: string;
+
+  user: Object = {
+  name: 'John',
+  surname: 'Smith',
+  address: '13 Pine Street'
+}
+
+
+
 
 
   constructor() { }
