@@ -7,7 +7,6 @@ import { HomeComponent } from './home/home.component';
 import { InterpolacionComponent } from './interpolacion/interpolacion.component';
 import { BindingComponent } from './binding/binding.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +16,9 @@ import { BindingComponent } from './binding/binding.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
